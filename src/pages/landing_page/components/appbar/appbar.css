@@ -1,0 +1,20 @@
+.anchors {
+    display: inline-block;
+    width:80px;
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    font-style: bold;
+    opacity: 0.7;
+    margin-left: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+
+
+}
+
+.anchors:hover {
+    color:white;
+    opacity: 1;
+}
