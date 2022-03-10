@@ -50,8 +50,7 @@ const Informasi = () => {
        <CardContent
         sx={{
            width:{md:'100%', sm:'100%'},
-           textAlign:{xs:'center', md:'left'}
-
+           textAlign:{xs:'center', md:'left'},
        }} >
             <Typography
             variant='h4'

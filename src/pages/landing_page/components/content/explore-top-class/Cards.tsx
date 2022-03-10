@@ -113,7 +113,7 @@ const Cards = (props: PropsCard) => {
              color='#000000'
              marginTop='10px'
              sx={{
-              fontSize:{lg:'24px', md:'18px', xs:'18px'}
+              fontSize:{lg:'24px', md:'18px', xs:'24px'}
              }}
              >
                Rp.{props.hargaSekarang}
