@@ -7,6 +7,13 @@ const Banner = () => {
   return (
     <React.Fragment>
         <Box
+        width="100%"
+        display="flex"
+        justifyContent='center'
+        >
+
+       
+        <Box
         sx={{
             display: 'flex',
             width: {lg:'100%', md:'100%', sm:'460px', xs:'460px'},
@@ -15,8 +22,7 @@ const Banner = () => {
             justifyContent:{lg:'center', md:'center', sm:'center', xs:'center'},
             borderRadius:'25px', 
             bgcolor:'#04756F',
-            marginTop:'230px', 
-            marginBottom:'400px',
+            marginTop:'230px',  
 
         }}
         >
@@ -75,6 +81,8 @@ const Banner = () => {
                 display:{lg:'flex', md:'none', xs:'none'}
             }}
             ></Box>
+        </Box>
+
         </Box>
     </React.Fragment>
   )

@@ -7,6 +7,7 @@ import InformasiClass from './components/content/informasi/Informasi'
 import ExploreComponent from './components/content/explore-top-class/Explore'
 import EnrollTheCourse from './components/content/enroll-the-course/EnrollTheCourse'
 import Banner from './components/content/banner/Banner'
+import Video from './components/content/video/Video'
 import Box from '@mui/material/Box'
 const LandingPage = () => {
   return (
@@ -27,6 +28,7 @@ const LandingPage = () => {
          <ExploreComponent />
          <EnrollTheCourse />
          <Banner />
+         <Video />
         </Box>
 
         
