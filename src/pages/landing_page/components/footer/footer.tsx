@@ -32,7 +32,7 @@ export default function Footer(){
                             color='#EEF1F5' 
                             fontFamily='Roboto'
                             fontWeight='300'
-                            fontSize='16px'>harivideo@hv.com</Typography>
+                            fontSize='16px'>harivideo@hv.co</Typography>
                              <Typography
                             mt={3} 
                             color='#EEF1F5' 
