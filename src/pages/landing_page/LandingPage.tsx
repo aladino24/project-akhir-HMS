@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from '@mui/material/Container'
 import Appbar from './components/header/appbar/Appbar'
 import Jumbotron from './components/header/jumbotron/jumbotron'
 import FootHeader from './components/header/footheader/FootHeader'
@@ -8,6 +7,8 @@ import ExploreComponent from './components/content/explore-top-class/Explore'
 import EnrollTheCourse from './components/content/enroll-the-course/EnrollTheCourse'
 import Banner from './components/content/banner/Banner'
 import Video from './components/content/video/Video'
+import SayAbout from './components/content/say_about/SayAbout'
+import JoinUs from './components/content/join-us/JoinUs'
 import Box from '@mui/material/Box'
 const LandingPage = () => {
   return (
@@ -29,6 +30,8 @@ const LandingPage = () => {
          <EnrollTheCourse />
          <Banner />
          <Video />
+         <SayAbout />
+         <JoinUs />
         </Box>
 
         

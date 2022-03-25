@@ -12,6 +12,7 @@ const Carded = styled(Card)({
    width:'458px',
    height:'458px', 
    borderRadius:'25px',
+   boxShadow:'none'
 
 
 })
@@ -41,7 +42,8 @@ const Cards = (props: PropsCard) => {
        sx={{
          display: 'flex',
          marginTop:'20px',
-         justifyContent: 'space-between'
+         justifyContent: 'space-between', 
+         
 
        }}
        >
