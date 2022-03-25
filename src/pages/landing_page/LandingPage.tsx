@@ -9,6 +9,7 @@ import Banner from './components/content/banner/Banner'
 import Video from './components/content/video/Video'
 import SayAbout from './components/content/say_about/SayAbout'
 import JoinUs from './components/content/join-us/JoinUs'
+import Footer from './components/footer/footer'
 import Box from '@mui/material/Box'
 const LandingPage = () => {
   return (
@@ -33,7 +34,7 @@ const LandingPage = () => {
          <SayAbout />
          <JoinUs />
         </Box>
-
+        <Footer />
         
 
     </React.Fragment>
