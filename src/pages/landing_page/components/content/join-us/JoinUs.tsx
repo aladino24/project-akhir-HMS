@@ -2,6 +2,7 @@ import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import TextField from '@mui/material/TextField'
 import Button from '@mui/material/Button'
+import women from './../../../../../assets/subscribe/women.png';
 // import makeStyles from '@material-ui/core/styles'
 
 // const useStyle = makeStyles({
@@ -16,11 +17,13 @@ const JoinUs = () => {
   return (
     <Box
     sx={{
-        width: '100%',
-        height:'378px', 
+        display: {lg:'flex', md:'block', sm:'block', xs:'block'},
+        justifyContent: 'space-between',
+        width: '97%',
+        height: {lg:'420px', md:'40%'},
         bgcolor:'#04756F',
         borderRadius: '25px', 
-        marginTop: '250px', 
+        marginTop: '300px', 
         marginBottom: '50px',
         paddingLeft:"40px",
         boxShadow:'border-box'
@@ -31,6 +34,7 @@ const JoinUs = () => {
     //   textAlign='center'
       paddingTop= '50px'
       width='50%'
+      paddingBottom= '50px'
 
       >
          <Typography
@@ -55,7 +59,7 @@ const JoinUs = () => {
          </Typography>
         
           <Box
-          display='flex'
+          sx={{ display: {sm:'block',lg:'flex', xs:'flex', md:'flex'} }}
           justifyContent='space-between'
           marginTop='50px'
           
@@ -68,7 +72,6 @@ const JoinUs = () => {
             width:'60%', 
             // marginTop:'30px',
         
-        
         }} 
         
         />
@@ -77,20 +80,30 @@ const JoinUs = () => {
       //  className={classes.button}
         sx={{
             bgcolor:'#FF6A28',
-            marginRight:'100px',
+            marginRight:{sm:'70px', lg:'190px', md: '70px'},
            color:'white',
-           fontSize:'18px', 
+           fontSize:{sm:'15px',lg:'18px',md:'16px'}, 
            fontFamily:'poppins'
           
         }}>SUBSCRIBE</Button>
 
-          </Box>
-        
-         
+          </Box>        
         
       </Box>
 
-
+      <Box
+         component='img'
+         width='460px'
+         height='740px'
+         position='relative'
+         top={-157}
+         sx={{
+             top:{lg:-180, md:5, sm:5, xs:5,},
+             width:{lg:'480px', md:'460px', xs:'320px'},
+             height:{lg:'600px', md:'535.7px', xs:'373.84px'},             
+         }}
+         src={women}
+         ></Box>
 
     </Box>
   )

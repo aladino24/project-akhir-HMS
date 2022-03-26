@@ -84,12 +84,12 @@ export default function Footer(){
                     </Grid>
 
                     <Grid item xs={12} sm={3}>
-                      <Box mb={5} ml={23}>
+                      <Box mb={5} ml={7}>
                           <IconButton size='small' arial-label="top" >
                             <img src={top} alt="top" />
                           </IconButton>
                       </Box>
-                      <Box ml={11}>
+                      <Box ml={5}>
                       <IconButton sx={{ color:'white' }} arial-label="twiter-icon">
                             <TwitterIcon />
                         </IconButton>
